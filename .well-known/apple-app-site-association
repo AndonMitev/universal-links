@@ -3,7 +3,7 @@
     "details": [
       {
         "appIDs": [
-          "dev.ooo.opn.wallet://"
+          "dev.ooo.opn.wallet"
         ],
         "components": [
           {
