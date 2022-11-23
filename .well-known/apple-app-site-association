@@ -3,7 +3,7 @@
     "apps": [],
     "details": [
       {
-        "appID": "*.*.*.wallet",
+        "appID": "dev.ooo.opn.wallet",
         "components": [
           {
             "/": "/buy"
