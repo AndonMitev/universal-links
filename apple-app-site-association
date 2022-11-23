@@ -3,8 +3,7 @@
     "details": [
       {
         "appIDs": [
-          "ABCDE12345.com.example.app",
-          "ABCDE12345.com.example.app2"
+          "dev.ooo.opn.wallet://"
         ],
         "components": [
           {
