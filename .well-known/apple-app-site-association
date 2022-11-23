@@ -1,14 +1,13 @@
 {
   "applinks": {
+    "apps": [],
     "details": [
       {
-        "appIDs": [
-          "dev.ooo.opn.wallet"
-        ],
+        "appID": "*.*.*.wallet",
         "components": [
           {
-            "/": "/buy/*",
-            "comment": "Matches any URL whose path starts with /buy/"
+            "/": "/buy",
+            "comment": "Matches URL whose path starts with /buy/"
           }
         ]
       }
