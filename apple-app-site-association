@@ -1,11 +1,16 @@
 {
   "applinks": {
-    "apps": [],
     "details": [
       {
-        "appIDs": "dev.ooo.opn.wallet://",
-        "paths": [
-          "/test"
+        "appIDs": [
+          "ABCDE12345.com.example.app",
+          "ABCDE12345.com.example.app2"
+        ],
+        "components": [
+          {
+            "/": "/buy/*",
+            "comment": "Matches any URL whose path starts with /buy/"
+          }
         ]
       }
     ]
