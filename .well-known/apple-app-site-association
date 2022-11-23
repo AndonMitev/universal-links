@@ -6,9 +6,11 @@
         "appID": "*.*.*.wallet",
         "components": [
           {
-            "/": "/buy",
-            "comment": "Matches URL whose path starts with /buy/"
+            "/": "/buy"
           }
+        ],
+        "paths": [
+          "/buy"
         ]
       }
     ]
