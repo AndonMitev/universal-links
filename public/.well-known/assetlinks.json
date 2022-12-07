@@ -2,7 +2,7 @@
   "relation": ["delegate_permission/common.handle_all_urls"],
   "target": {
     "namespace": "android_app",
-    "package_name": "dev.opn-ooo.wallet",
+    "package_name": "staging.ooo.opn.wallet",
     "sha256_cert_fingerprints": [
       "5C:45:EB:FE:8B:E7:B6:57:61:2E:39:D9:15:07:6F:94:2C:67:92:78:B8:D3:9D:47:3A:BF:37:7F:EB:EC:35:54"
     ]
