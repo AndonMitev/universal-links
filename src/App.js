@@ -1,10 +1,15 @@
 
+import { useEffect } from 'react';
 import { Routes, Route, Link } from "react-router-dom"
 import './App.css';
 import Buy from './Buy';
 import Test from './Test';
 
 function App() {
+  useEffect(() => {
+    window.location.replace(`https://mint.opn.network/claim?c=4EVE Exception`)
+  }, [])
+
   return (
     <div className="App">
       <div>
