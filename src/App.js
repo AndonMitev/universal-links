@@ -6,7 +6,7 @@ import './App.css';
 // import Test from './Test';
 
 function App() {
-
+  window.location.href = `https://mint.opn.network/claim?c=4EVE`
   // (() => {
   //   document.location.href = `https://mint.opn.network/claim?c=4EVE`
   //   return false
