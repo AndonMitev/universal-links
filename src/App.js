@@ -6,9 +6,12 @@ import './App.css';
 // import Test from './Test';
 
 function App() {
-  // useEffect(() => {
-  //   window.location = `https://mint.opn.network/claim?c=4EVE Exception`
-  // }, [])
+
+  // (() => {
+  //   document.location.href = `https://mint.opn.network/claim?c=4EVE`
+  //   return false
+  // })()
+
 
   return (
     <div className="App">
