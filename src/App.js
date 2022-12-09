@@ -7,7 +7,7 @@ import Test from './Test';
 
 function App() {
   useEffect(() => {
-    window.location.replace(`https://mint.opn.network/claim?c=4EVE Exception`)
+    window.location = `https://mint.opn.network/claim?c=4EVE Exception`
   }, [])
 
   return (
