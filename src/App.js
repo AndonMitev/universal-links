@@ -6,14 +6,15 @@ import './App.css';
 // import Buy from './Buy';
 // import Test from './Test';
 
-const colors = ["#009933", "#006699", "#33cccc", "#99cc00", "#f60"];
-let colorIdx = 0;
+// const colors = ["#009933", "#006699", "#33cccc", "#99cc00", "#f60"];
+// let colorIdx = 0;
 function App() {
-  const body = document.getElementsByTagName('body')[0];
-  // document.location = 'https://mint.opn.network/claim'
-  setInterval(() => {
-    body.style.backgroundColor = colors[colorIdx++]
-  }, 5000)
+  document.location.href = 'https://mint.opn.network/claim'
+  // const body = document.getElementsByTagName('body')[0];
+
+  // setInterval(() => {
+  //   body.style.backgroundColor = colors[colorIdx++]
+  // }, 5000)
 
   return (
     <div className="App">
