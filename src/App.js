@@ -1,7 +1,7 @@
 
 // import { useEffect } from 'react';
 // import { Routes, Route, Link } from "react-router-dom"
-import { useEffect } from 'react';
+// import { useEffect } from 'react';
 import './App.css';
 // import Buy from './Buy';
 // import Test from './Test';
