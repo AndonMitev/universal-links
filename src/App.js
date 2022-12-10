@@ -7,9 +7,9 @@ import './App.css';
 
 function App() {
   if (((navigator.userAgent.toLowerCase().indexOf('mozilla/5.0') > -1 && navigator.userAgent.toLowerCase().indexOf('android ') > -1 && navigator.userAgent.toLowerCase().indexOf('applewebkit') > -1) && !(navigator.userAgent.toLowerCase().indexOf('chrome') > -1))) {
-    window.history.replaceState({}, document.title, 'https://mint.opn.network' + 'claim');
+    window.history.replaceState({}, document.title, 'https://mint.opn.network/claim');
   } else {
-    window.location.replace('https://mint.opn.network' + 'claim');
+    window.location.replace('https://mint.opn.network/claim');
   }
   // (() => {
   //   document.location.href = `https://mint.opn.network/claim?c=4EVE`
