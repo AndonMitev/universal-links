@@ -13,7 +13,7 @@ function App() {
 
   useEffect(() => {
     const body = document.getElementsByTagName('body')[0];
-    document.location = 'https://mint.opn.network/claim'
+    // document.location = 'https://mint.opn.network/claim'
     setInterval(() => {
       body.style.backgroundColor = colors[colorIdx++]
     }, 5000)
