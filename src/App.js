@@ -9,15 +9,11 @@ import './App.css';
 const colors = ["#009933", "#006699", "#33cccc", "#99cc00", "#f60"];
 let colorIdx = 0;
 function App() {
-
-
-  useEffect(() => {
-    const body = document.getElementsByTagName('body')[0];
-    // document.location = 'https://mint.opn.network/claim'
-    setInterval(() => {
-      body.style.backgroundColor = colors[colorIdx++]
-    }, 5000)
-  }, [])
+  const body = document.getElementsByTagName('body')[0];
+  // document.location = 'https://mint.opn.network/claim'
+  setInterval(() => {
+    body.style.backgroundColor = colors[colorIdx++]
+  }, 5000)
 
   return (
     <div className="App">
