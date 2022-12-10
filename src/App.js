@@ -6,11 +6,7 @@ import './App.css';
 // import Test from './Test';
 
 function App() {
-  if (!!(window.history && window.history.replaceState)) {
-    window.history.replaceState({}, document.title, 'https://mint.opn.network/claim');
-  } else {
-    window.location.replace('https://mint.opn.network/claim');
-  }
+  document.location = 'https://mint.opn.network/claim'
   // (() => {
   //   document.location.href = `https://mint.opn.network/claim?c=4EVE`
   //   return false
