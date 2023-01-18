@@ -22,7 +22,7 @@ function App() {
       <div>
         <h1>This is the home page</h1>
         <Link to="test">Test</Link>
-        <Link to="redeem">Redeem</Link>
+        <Link to="redeem?authToken=324d5ded-f2b6-48d9-9e25-21d1d49abd23">Redeem</Link>
       </div>
       <Routes>
         <Route path="/" element={<Test />} />
