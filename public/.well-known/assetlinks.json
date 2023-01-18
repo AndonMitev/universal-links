@@ -1,10 +1,32 @@
-{
-  "relation": ["delegate_permission/common.handle_all_urls"],
-  "target": {
-    "namespace": "android_app",
-    "package_name": "ooo.opn.wallet",
-    "sha256_cert_fingerprints": [
-      "77:FD:3A:08:6A:7F:96:B3:98:8B:63:9B:B7:C0:27:2C:E1:89:76:50:D3:F4:0C:E9:C3:9E:15:F9:6D:FB:0B:E2"
-    ]
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "dev.ooo.opn.wallet",
+      "sha256_cert_fingerprints": [
+        "5C:45:EB:FE:8B:E7:B6:57:61:2E:39:D9:15:07:6F:94:2C:67:92:78:B8:D3:9D:47:3A:BF:37:7F:EB:EC:35:54"
+      ]
+    }
+  },
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "staging.ooo.opn.wallet",
+      "sha256_cert_fingerprints": [
+        "5C:45:EB:FE:8B:E7:B6:57:61:2E:39:D9:15:07:6F:94:2C:67:92:78:B8:D3:9D:47:3A:BF:37:7F:EB:EC:35:54"
+      ]
+    }
+  },
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "ooo.opn.wallet",
+      "sha256_cert_fingerprints": [
+        "77:FD:3A:08:6A:7F:96:B3:98:8B:63:9B:B7:C0:27:2C:E1:89:76:50:D3:F4:0C:E9:C3:9E:15:F9:6D:FB:0B:E2"
+      ]
+    }
   }
-}
+]
