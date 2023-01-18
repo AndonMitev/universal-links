@@ -1,11 +1,10 @@
 
 // import { useEffect } from 'react';
-import { Routes, Route, Link } from "react-router-dom"
+// import { Routes, Route, Link } from "react-router-dom"
 // import { useEffect } from 'react';
 import './App.css';
-import { Redeem } from './Redeem';
 // import Buy from './Buy';
-import Test from './Test';
+// import Test from './Test';
 
 // const colors = ["#009933", "#006699", "#33cccc", "#99cc00", "#f60"];
 // let colorIdx = 0;
@@ -21,13 +20,14 @@ function App() {
     <div className="App">
       <div>
         <h1>This is the home page</h1>
-        <Link to="test">Test</Link>
-        <Link to="redeem?authToken=324d5ded-f2b6-48d9-9e25-21d1d49abd23">Redeem</Link>
+        {/* <Link to="test">Test</Link>
+        <Link to="buy">Buy</Link> */}
       </div>
-      <Routes>
+      {/* <Routes>
         <Route path="/" element={<Test />} />
-        <Route path="/redeem?authToken=324d5ded-f2b6-48d9-9e25-21d1d49abd23" element={<Redeem />} />
-      </Routes>
+        <Route path="/buy" element={<Buy />} />
+        <Route path="/test" element={<Test />} />
+      </Routes> */}
     </div>
   );
 }
