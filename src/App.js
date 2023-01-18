@@ -9,7 +9,7 @@ import './App.css';
 // const colors = ["#009933", "#006699", "#33cccc", "#99cc00", "#f60"];
 // let colorIdx = 0;
 function App() {
-  document.location.href = 'https://mint.opn.network/claim'
+  // document.location.href = 'https://mint.opn.network/claim'
   // const body = document.getElementsByTagName('body')[0];
 
   // setInterval(() => {

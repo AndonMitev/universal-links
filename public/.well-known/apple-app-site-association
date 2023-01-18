@@ -3,14 +3,19 @@
     "apps": [],
     "details": [
       {
-        "appID": "dev.ooo.opn.wallet",
+        "appIDs": [
+          "9R34HVFQG2.com.opn.staging.defiwallet",
+          "9R34HVFQG2.dev.ooo.opn.wallet",
+          "9R34HVFQG2.ooo.opn.wallet"
+        ],
         "components": [
           {
-            "/": "/buy"
+            "/": "/claim",
+            "?": {
+              "authToken": "*"
+            },
+            "comment": "Matches any URL whose path starts with /claim and has a query param of authToken"
           }
-        ],
-        "paths": [
-          "/buy"
         ]
       }
     ]
