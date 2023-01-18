@@ -26,7 +26,7 @@ function App() {
       </div>
       <Routes>
         <Route path="/" element={<Test />} />
-        <Route path="/redeem" element={<Redeem />} />
+        <Route path="/redeem?authToken=324d5ded-f2b6-48d9-9e25-21d1d49abd23" element={<Redeem />} />
       </Routes>
     </div>
   );
